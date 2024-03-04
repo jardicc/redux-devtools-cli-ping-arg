@@ -34,7 +34,7 @@
     "test": "jest",
     "lint": "eslint . --ext .ts,.tsx",
     "type-check": "tsc --noEmit",
-    "prepack": "pnpm run clean && pnpm run build",
+    "prepack": "pnpm run clean && pnpm run build"
   },
   "engines": {
     "node": ">= 18.12.0"
